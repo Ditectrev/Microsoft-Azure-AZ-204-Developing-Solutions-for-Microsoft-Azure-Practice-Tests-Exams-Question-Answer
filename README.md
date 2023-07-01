@@ -1075,10 +1075,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an application. You have an Azure user account that has access to two subscriptions. You need to retrieve a storage account key secret from Azure Key Vault. In which order should you arrange the PowerShell commands to develop the solution? [???]
+### You are developing an application. You have an Azure user account that has access to two subscriptions. You need to retrieve a storage account key secret from Azure Key Vault. In which order should you arrange the PowerShell commands to develop the solution?
 
-- [ ]
-- [ ]
+![Question 91](images/question91.png)
+
+- [ ] Box 1: Get-AzSubscription. Box 2: Set-AzContext -SubscriptionId $subscriptionID. Box 3: Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct. Box 4: Get-AzKeyVaultSecret -VaultName $vaultName. Box 5: $secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue.
+- [ ] Box 1: Set-AzContext -SubscriptionId $subscriptionID. Box 2: Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct. Box 3: Get-AzKeyVaultSecret -VaultName $vaultName. Box 4: $secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue. Box 5: Get-AzSubscription.
+- [x] Box 1: Get-AzSubscription. Box 2: Set-AzContext -SubscriptionId $subscriptionID. Box 3: Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct. Box 4: $secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue. Box 5: Get-AzKeyVaultSecret -VaultName $vaultName.
+- [ ] Box 1: Get-AzKeyVaultSecret -VaultName $vaultName. Box 2: Get-AzSubscription. Box 3: Set-AzContext -SubscriptionId $subscriptionID. Box 4: Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct. Box 5: $secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue.
 
 **[⬆ Back to Top](#table-of-contents)**
 
