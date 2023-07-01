@@ -1100,10 +1100,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are building a website that is used to review restaurants. The website will use an Azure CDN to improve performance and add functionality to requests. You build and deploy a mobile app for Apple iPhones. Whenever a user accesses the website from an iPhone, the user must be redirected to the app store. You need to implement an Azure CDN rule that ensures that iPhone users are redirected to the app store. How should you complete the Azure Resource Manager template? [???]
+### You are building a website that is used to review restaurants. The website will use an Azure CDN to improve performance and add functionality to requests. You build and deploy a mobile app for Apple iPhones. Whenever a user accesses the website from an iPhone, the user must be redirected to the app store. You need to implement an Azure CDN rule that ensures that iPhone users are redirected to the app store. How should you complete the Azure Resource Manager template?
 
-- [ ]
-- [ ]
+![Question 94](images/question94.png)
+
+- [ ] Box 1: iOS. Box 2: DeliveryRulelsDeviceConditionParameters. Box 3: HTTP_USER_AGENT. Box 4: DeliveryRuleRequestHeaderConditionParameters. Box 5: iOS.
+- [x] Box 1: Mobile. Box 2: DeliveryRulelsDeviceConditionParameters. Box 3: HTTP_USER_AGENT. Box 4: DeliveryRuleRequestHeaderConditionParameters. Box 5: iPhone.
+- [ ] Box 1: Desktop. Box 2: DeliveryRuleCookiesConditionParameters. Box 3: PRAGMA. Box 4: DeliveryRulelsDeviceConditionParameters. Box 5: Desktop.
+- [ ] Box 1: iOS. Box 2: DeliveryRulelsDeviceConditionParameters. Box 3: FROM. Box 4: DeliveryRulePostArgsConditionParameters. Box 5: Mobile.
 
 **[⬆ Back to Top](#table-of-contents)**
 
