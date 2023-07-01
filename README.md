@@ -1305,12 +1305,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You develop and deploy an Azure Logic app that calls an Azure Function app. The Azure Function app includes an OpenAPI (Swagger) definition and uses an Azure Blob storage account. All resources are secured by using Azure Active Directory (Azure AD). The Azure Logic app must securely access the Azure Blob storage account. Azure AD resources must remain if the Azure Logic app is deleted. You need to secure the Azure Logic app. What should you do? [???]
+### You develop and deploy an Azure Logic app that calls an Azure Function app. The Azure Function app includes an OpenAPI (Swagger) definition and uses an Azure Blob storage account. All resources are secured by using Azure Active Directory (Azure AD). The Azure Logic app must securely access the Azure Blob storage account. Azure AD resources must remain if the Azure Logic app is deleted. You need to secure the Azure Logic app. What should you do?
 
-- [ ] Create a user-assigned managed identity and assign role-based access controls.
+- [x] Create a user-assigned managed identity and assign role-based access controls.
 - [ ] Create an Azure AD custom role and assign the role to the Azure Blob storage account.
-- [x] Create an Azure Key Vault and issue a client certificate.
-- [x] Create a system-assigned managed identity and issue a client certificate.
+- [ ] Create an Azure Key Vault and issue a client certificate.
+- [ ] Create a system-assigned managed identity and issue a client certificate.
 - [ ] Create an Azure AD custom role and assign role-based access controls.
 
 **[⬆ Back to Top](#table-of-contents)**
