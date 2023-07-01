@@ -1547,12 +1547,12 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are creating a hazard notification system that has a single signaling server which triggers audio and visual alarms to start and stop. You implement Azure Service Bus to publish alarms. Each alarm controller uses Azure Service Bus to receive alarm signals as part of a transaction. Alarm events must be recorded for audit purposes. Each transaction record must include information about the alarm type that was activated. You need to implement a reply trail auditing solution. Which two actions should you perform? [???]
+### You are creating a hazard notification system that has a single signaling server which triggers audio and visual alarms to start and stop. You implement Azure Service Bus to publish alarms. Each alarm controller uses Azure Service Bus to receive alarm signals as part of a transaction. Alarm events must be recorded for audit purposes. Each transaction record must include information about the alarm type that was activated. You need to implement a reply trail auditing solution. Which two actions should you perform?
 
-- [ ] Assign the value of the hazard message SessionID property to the ReplyToSessionId property.
-- [x] Assign the value of the hazard message MessageId property to the DevileryCount property.
+- [x] Assign the value of the hazard message SessionID property to the ReplyToSessionId property.
+- [ ] Assign the value of the hazard message MessageId property to the DevileryCount property.
 - [ ] Assign the value of the hazard message SessionID property to the SequenceNumber property.
-- [ ] Assign the value of the hazard message MessageId property to the CorrelationId property.
+- [x] Assign the value of the hazard message MessageId property to the CorrelationId property.
 - [ ] Assign the value of the hazard message SequenceNumber property to the DeliveryCount property.
 - [ ] Assign the value of the hazard message MessageId property to the SequenceNumber property.
 
