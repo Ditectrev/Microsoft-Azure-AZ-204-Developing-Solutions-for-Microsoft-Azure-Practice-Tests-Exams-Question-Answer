@@ -1496,10 +1496,10 @@
 
 ![Question 134](images/question134.png)
 
-- [x] Box 1: Azure Event Grid. Box 2: Azure Logic App. Box 3: Azure Service Bus.
-- [ ] Box 1: Azure Service Bus. Box 2: Azure App Service. Box 3: Azure Blob Storage.
-- [ ] Box 1: Azure Event Grid. Box 2: Azure Service Bus. Box 3: Azure Blob Storage.
-- [ ] Box 1: Azure EventHub. Box 2: Azure App Service. Box 3: Azure Event Grid.
+- [ ] Event Source: Azure Event Grid. Event Receiver: Azure Logic App. Event Handler: Azure Service Bus.
+- [ ] Event Source: Azure Service Bus. Event Receiver: Azure App Service. Event Handler: Azure Blob Storage.
+- [ ] Event Source: Azure Event Grid. Event Receiver: Azure Service Bus. Event Handler: Azure Blob Storage.
+- [x] Event Source: Azure Blob Storage. Event Receiver: Azure Event Grid. Event Handler: Azure Logic App.
 
 **[⬆ Back to Top](#table-of-contents)**
 
