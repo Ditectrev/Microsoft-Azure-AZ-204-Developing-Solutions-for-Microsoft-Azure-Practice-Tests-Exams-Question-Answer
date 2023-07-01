@@ -1294,10 +1294,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an Azure-hosted application that must use an on-premises hardware security module (HSM) key. The key must be transferred to your existing Azure Key Vault by using the Bring Your Own Key (BYOK) process. You need to securely transfer the key to Azure Key Vault. Which four actions should you perform in sequence? [???]
+### You are developing an Azure-hosted application that must use an on-premises hardware security module (HSM) key. The key must be transferred to your existing Azure Key Vault by using the Bring Your Own Key (BYOK) process. You need to securely transfer the key to Azure Key Vault. Which four actions should you perform in sequence?
 
-- [ ]
-- [ ]
+![Question 114](images/question114.jpeg)
+
+- [ ] Box 1: Create a custom policy definition in Azure Policy. Box 2: Generate a Key Exchange Key (KEK). Box 3: Retrieve the Key Exchange Key (KEK) public key. Box 4: Run the az keyvault key import command.
+- [ ] Box 1: Create a custom policy definition in Azure Policy. Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM vendor-provided tool. Box 4: Run the az keyvault key import command.
+- [ ] Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM vendor-provided tool. Box 4: Run the az keyvault key restore command.
+- [x] Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM vendor-provided tool. Box 4: Run the az keyvault key import command.
 
 **[⬆ Back to Top](#table-of-contents)**
 
