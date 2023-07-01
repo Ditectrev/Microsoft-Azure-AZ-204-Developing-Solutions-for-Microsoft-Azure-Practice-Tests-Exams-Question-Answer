@@ -212,7 +212,7 @@
 | 204   | [Question204](#question204) |
 | 205   | [Question205](#question205) |
 | 206   | [Question206](#question206) |
-
+| 207   | [Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. You require [a redirect URI] from the developer for registration purposes.](#question207)
 
 ### You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. Each instance of the WebJob processes data for a single customer and must run as a singleton instance. Each deployment must be tested by using deployment slots prior to serving production data. Azure costs must be minimized. Azure resources must be located in an isolated network. You need to configure the App Service plan for the Web App. How should you configure the App Service plan?
 
@@ -1830,15 +1830,6 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. You require a [redirect URI] from the developer for registration purposes. [???]
-
-- [x] No change required.
-- [ ] a secret.
-- [ ] a login hint.
-- [ ] a client ID.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### You are creating an Azure key vault using PowerShell. Objects deleted from the key vault must be kept for a set period of 90 days. Which two of the following parameters must be used in conjunction to meet the requirement? (Choose two.) [???]
 
 - [ ] EnabledForDeployment.
@@ -2094,5 +2085,14 @@ data from the Service Bus queue. Box 4: Add a condition that compares the temper
 
 - [ ]
 - [ ]
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. You require [a redirect URI] from the developer for registration purposes.
+
+- [x] No change required.
+- [ ] a secret.
+- [ ] a login hint.
+- [ ] a client ID.
 
 **[⬆ Back to Top](#table-of-contents)**
