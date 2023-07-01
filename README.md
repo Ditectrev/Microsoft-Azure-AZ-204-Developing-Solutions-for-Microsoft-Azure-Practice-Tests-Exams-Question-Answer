@@ -1377,8 +1377,8 @@
 
 ![Question 122](images/question122.png)
 
-- [x???] Box 1: NotificationHubClient. Box 2: NotificationHubClient. Box 3: CreateClientFromConnectionString. Box 4: SendWindowsNativeNotificationAsync.
-- [x???] Box 1: NotificationHubJob. Box 2: NotificationHubJob. Box 3: Patchlinstallation. Box 4: SendWindowsNativeNotificationAsync.
+- [x] Box 1: NotificationHubClient. Box 2: NotificationHubClient. Box 3: CreateClientFromConnectionString. Box 4: SendWindowsNativeNotificationAsync.
+- [ ] Box 1: NotificationHubJob. Box 2: NotificationHubJob. Box 3: Patchlinstallation. Box 4: SendWindowsNativeNotificationAsync.
 - [ ] Box 1: NotificationHubClientSettings. Box 2: NotificationHubClientSettings. Box 3: CreateOrUpdatelnstallation. Box 4: ScheduleNotificationAsync.
 - [ ] Box 1: NotificationHubClientSettings. Box 2: NotificationDetails. Box 3: CreateOrUpdatelnstallation. Box 4: SendWindowsNativeNotificationAsync.
 
