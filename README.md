@@ -1194,11 +1194,11 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an ASP.NET Core website that uses Azure FrontDoor. The website is used to build custom weather data sets for researchers. Data sets are downloaded by users as Comma Separated Value (CSV) files. The data is refreshed every 10 hours. Specific files must be purged from the FrontDoor cache based upon Response Header values. You need to purge individual assets from the Front Door cache. Which type of cache purge should you use? [???]
+### You are developing an ASP.NET Core website that uses Azure FrontDoor. The website is used to build custom weather data sets for researchers. Data sets are downloaded by users as Comma Separated Value (CSV) files. The data is refreshed every 10 hours. Specific files must be purged from the FrontDoor cache based upon Response Header values. You need to purge individual assets from the Front Door cache. Which type of cache purge should you use?
 
-- [x] Single path.
-- [ ] Wildcard.
-- [ ] Root domain.
+- [x] single path.
+- [ ] wildcard.
+- [ ] root domain.
 
 **[⬆ Back to Top](#table-of-contents)**
 
