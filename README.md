@@ -1492,7 +1492,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing. The solution must meet the following requirements: Begin processing when data is saved to Azure Blob storage. Filter data based on store location information. Trigger an Azure Logic App to process the data for output to Azure Cosmos DB. Enable high availability and geographic distribution. Allow 24-hours for retries. Implement an exponential back off data processing. You need to configure the solution. What should you implement? [Missing image in question???]
+### You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing. The solution must meet the following requirements: Begin processing when data is saved to Azure Blob storage. Filter data based on store location information. Trigger an Azure Logic App to process the data for output to Azure Cosmos DB. Enable high availability and geographic distribution. Allow 24-hours for retries. Implement an exponential back off data processing. You need to configure the solution. What should you implement?
 
 ![Question 134](images/question134.png)
 
