@@ -1945,12 +1945,12 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are a developer at your company. You need to edit the workflows for an existing Logic App. What should you use? [???]
+### You are a developer at your company. You need to edit the workflows for an existing Logic App. What should you use?
 
-- [ ] the Enterprise Integration Pack (EIP).
-- [ ] the Logic App Code View.
-- [ ] the API Connections.
-- [ ] the Logic Apps Designer.
+- [ ] The Enterprise Integration Pack (EIP).
+- [ ] The Logic App Code View.
+- [ ] The API Connections.
+- [x] The Logic Apps Designer.
 
 **[⬆ Back to Top](#table-of-contents)**
 
