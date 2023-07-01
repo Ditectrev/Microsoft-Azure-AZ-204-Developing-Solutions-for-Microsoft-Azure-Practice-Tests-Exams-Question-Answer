@@ -1326,12 +1326,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing a solution that will use a multi-partitioned Azure Cosmos DB database. You plan to use the latest Azure Cosmos DB SDK for development. The solution must meet the following requirements: Send insert and update operations to an Azure Blob storage account. Process changes to all partitions immediately. Allow parallelization of change processing. You need to process the Azure Cosmos DB operations. What are two possible ways to achieve this goal? [???]
+### You are developing a solution that will use a multi-partitioned Azure Cosmos DB database. You plan to use the latest Azure Cosmos DB SDK for development. The solution must meet the following requirements: Send insert and update operations to an Azure Blob storage account. Process changes to all partitions immediately. Allow parallelization of change processing. You need to process the Azure Cosmos DB operations. What are two possible ways to achieve this goal?
 
 - [ ] Create an Azure App Service API and implement the change feed estimator of the SDK. Scale the API by using multiple Azure App Service instances.
 - [ ] Create a background job in an Azure Kubernetes Service and implement the change feed feature of the SDK.
-- [ ] Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container.
-- [ ] Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange objext to parallelize the processing of the change feed across multiple functions.
+- [x] Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container.
+- [x] Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange objext to parallelize the processing of the change feed across multiple functions.
 
 **[⬆ Back to Top](#table-of-contents)**
 
