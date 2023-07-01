@@ -1830,12 +1830,12 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are creating an Azure key vault using PowerShell. Objects deleted from the key vault must be kept for a set period of 90 days. Which two of the following parameters must be used in conjunction to meet the requirement? (Choose two.) [???]
+### You are creating an Azure key vault using PowerShell. Objects deleted from the key vault must be kept for a set period of 90 days. Which two of the following parameters must be used in conjunction to meet the requirement? (Choose two.)
 
 - [ ] EnabledForDeployment.
 - [x] EnablePurgeProtection.
 - [ ] EnabledForTemplateDeployment.
-- [ ] EnableSoftDelete.
+- [x] EnableSoftDelete.
 
 **[⬆ Back to Top](#table-of-contents)**
 
