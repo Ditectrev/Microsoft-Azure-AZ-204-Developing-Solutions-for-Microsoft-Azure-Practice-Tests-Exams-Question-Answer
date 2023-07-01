@@ -1653,17 +1653,12 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company is developing a solution that allows smart refrigerators to send temperature information to a central location. The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location. You need to complete the configuration. Which Azure CLI or PowerShell command should you run? [???]
+### A company is developing a solution that allows smart refrigerators to send temperature information to a central location. The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location. You need to complete the configuration. Which Azure CLI or PowerShell command should you run?
 
-![Question 153 part 1](images/question153_1.png)
-![Question 153 part 2](images/question153_2.png)
-![Question 153 part 3](images/question153_3.png)
-![Question 153 part 4](images/question153_4.png)
-
-- [x???] A.
-- [ ] B.
-- [x???] C.
-- [ ] D.
+- [ ] az group create --name fridge-rg --location fridge-loc.
+- [ ] New-AzureRmServiceBusNamespace -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Location fridge-loc.
+- [x] New-AzureRmServiceBusQueue -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Name fridge-q -EnablePartitioning $False.
+- [ ] az servicebus namespace create --resource-group fridge-rg --name fridge-rg --location fridge-loc.
 
 **[⬆ Back to Top](#table-of-contents)**
 3
