@@ -2013,10 +2013,14 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing a web application that makes calls to the Microsoft Graph API. You register the application in the Azure portal and upload a valid X509 certificate. You create an appsettings.json file containing the certificate name, client identifier for the application, and the tenant identifier of the Azure Active Directory (Azure AD). You create a method named ReadCertificate to return the X509 certificate by name. You need to implement code that acquires a token by using the certificate. How should you complete the code segment? [???]
+### You are developing a web application that makes calls to the Microsoft Graph API. You register the application in the Azure portal and upload a valid X509 certificate. You create an appsettings.json file containing the certificate name, client identifier for the application, and the tenant identifier of the Azure Active Directory (Azure AD). You create a method named ReadCertificate to return the X509 certificate by name. You need to implement code that acquires a token by using the certificate. How should you complete the code segment?
 
-- [ ]
-- [ ]
+![Question 199](images/question199.jpg)
+
+- [ ] Box 1: ConfidentialClientApplicationBuilder. Box 2: app.
+- [x] Box 1: ConfidentialClientApplicationBuilder. Box 2: scopes.
+- [ ] Box 1: GetAccountAsync(). Box 2: scopes.
+- [ ] Box 1: ConfidentialClientApplication. Box 2: config.
 
 **[⬆ Back to Top](#table-of-contents)**
 
