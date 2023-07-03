@@ -1997,7 +1997,7 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are developing an Azure solution. You need to develop code to access a secret stored in Azure Key Vault. How should you complete the code segment?
 
-![Question ???](images/question???.jpg)
+![Question 197](images/question197.png)
 
 - [ ] Box 1: DefaultAzureCredential. Box 2: ClientSecretCredential.
 - [ ] Box 1: CloudCltents. Box 2: ClientSecretCredential.
