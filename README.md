@@ -1986,12 +1986,12 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are building a website to access project data related to teams within your organization. The website does not allow anonymous access. Authentication is performed using an Azure Active Directory (Azure AD) app named internal. The website has the following authentication requirements: Azure AD users must be able to login to the website. Personalization of the website must be based on membership in Active Directory groups. You need to configure the application's manifest to meet the authentication requirements. How should you configure the manifest?
 
-![Question ???](images/question???.png)
+![Question 196](images/question196.png)
 
 - [ ] Box 1: 'optionalClaims'. Box 2: 'allowPublicClient'.
 - [ ] Box 1: 'optionalClaims'. Box 2: 'requiredResourceAccess'.
-- [x] Box 1: 'groupMembershipClaims'. Box 2: 'oauth2Permissions'.
-- [ ] Box 1: 'groupMembershipClaims'. Box 2: 'oauth2AllowimplicitFlow'.
+- [ ] Box 1: 'groupMembershipClaims'. Box 2: 'oauth2Permissions'.
+- [x] Box 1: 'groupMembershipClaims'. Box 2: 'oauth2AllowimplicitFlow'.
 
 **[⬆ Back to Top](#table-of-contents)**
 
