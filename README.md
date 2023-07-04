@@ -213,6 +213,7 @@
 | 205   | [Question205](#question205) |
 | 206   | [Question206](#question206) |
 | 207   | [Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. You require [a redirect URI] from the developer for registration purposes.](#question207)
+| 208   | [You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events. You need to identify trends in application usage. Which Azure Application Insights Usage Analysis features should you use?](#question208)
 
 ### You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. Each instance of the WebJob processes data for a single customer and must run as a singleton instance. Each deployment must be tested by using deployment slots prior to serving production data. Azure costs must be minimized. Azure resources must be located in an isolated network. You need to configure the App Service plan for the Web App. How should you configure the App Service plan?
 
@@ -2056,32 +2057,6 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events. You need to identify trends in application usage. Which Azure Application Insights Usage Analysis features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. Select and Place [Which question is correct: this or 139???]
-
-![Question ???](images/question139.png)
-
-- [x] Box 1: Create a blank Logic app. Box 2: Add a logic app action that fres when one or more messages amive in the queue. Box 3: Add an action that reads o temperature.
-data from the Service Bus queue. Box 4: Add a condition that compares the
-temperature against the upper and lower thresholds Box 5: Add an action that sends an email to
-specified personnel if the temperature is outside of those thresholds.
-
-- [ ] Box 1: Add a logic app trigger that fires when one or
-more messages arrive in the queue. Box 2: Add a Recurrence trigger that schedules
-the app to run every 15 minutes. Box 3: Add a logic app action that fires when one or |
-more messages arrive n the queue. more messages arrive i he queue
-data from the Service Bus queue. Box 4: Add a condition that compares the
-temperature against the upper and lower thresholds Box 5: Add a Recurrence trigger that schedules
-the app to run every 15 minutes.
-
-- [ ] Box 1: Add an action that sends an email to
-specified personnel if the temperature is outside of those thresholds. Box 2: Add a logic app trigger that fires when one or more messages arrive in the queue. Box 3: Add a logic app action that fires when one or more messages arrive n the queue. more messages arrive i he queue
-data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds Box 5: Add a condition that compares the temperature against the upper and lower thresholds.
-
-- [ ] Box 1: Add an action that reads loT temperaturedata from the Service Bus queue. Box 2: Add a Recurrence trigger that schedulesthe app to run every 15 minutes. Box 3: Add a logic app action that fires when one or more messages arrive n the queue. more messages arrive i he queue
-data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds Box 5: Add a Recurrence trigger that schedules the app to run every 15 minutes.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### A company backs up all manufacturing data to Azure Blob Storage. Admins move blobs from hot storage to archive tier storage every month. You must automatically move blobs to Archive tier after they have not been modified within 180 days. The path for any item that is not archived must be placed in an existing queue. This operation must be performed automatically once a month. You set the value of TierAgeInDays to -180. How should you configure the Logic App? [???]
 
 - [ ]
@@ -2102,5 +2077,16 @@ data from the Service Bus queue. Box 4: Add a condition that compares the temper
 - [ ] a secret.
 - [ ] a login hint.
 - [ ] a client ID.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events. You need to identify trends in application usage. Which Azure Application Insights Usage Analysis features should you use?
+
+![Question 208](images/question208.png)
+
+- [x] Box 1: Funnels. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
+- [ ] Box 1: Impact. Box 2: Funnels. Box 3: Retention. Box 4: User Flows.
+- [ ] Box 1: Users. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
+- [ ] Box 1: Impact. Box 2: Users. Box 3: User Flows. Box 4: Funnels.
 
 **[⬆ Back to Top](#table-of-contents)**
