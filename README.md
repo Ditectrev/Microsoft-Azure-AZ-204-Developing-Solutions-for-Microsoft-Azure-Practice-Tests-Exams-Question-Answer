@@ -1539,7 +1539,7 @@
 
 ![Question 139](images/question139.png)
 
-- [x] Box 1: Create a blank Logic app. Box 2: Add a logic app action that fires when one or more messages arrive in the queue. Box 3: Add an action that reads IoT temperature data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds. Box 5: Add an action that sends an email to
+- [x] Box 1: Create a blank Logic app. Box 2: Add a logic app trigger that fires when one or more messages arrive in the queue. Box 3: Add an action that reads IoT temperature data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds. Box 5: Add an action that sends an email to
 specified personnel if the temperature is outside of those thresholds.
 - [ ] Box 1: Add a trigger that reads IoT temperature data from a Service Bus queue. Box 2: Add a condition that compares the temperature against the upper and lower thresholds. Box 3: Add a logic app action that fires when one or more messages arrive in the queue. Box 4: Create a blank Logic app. Box 5: Add an action that sends an email to specified personnel if the temperature is outside of those thresholds.
 - [ ] Box 1: Add a condition that compares the temperature against the upper and lower thresholds. Box 2: Outbound. Box 3: Add a Recurence rigge that schedules the app to run every 15 minutes. Box 4: Add a trigger that reads IoT temperature data from a Service Bus queue. Box 5: Create a blank Logic app.
