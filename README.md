@@ -203,7 +203,7 @@
 | 195   | [You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to ContentUploadService. Content is processed by ContentAnalysisService. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The ContentAnalysisService is deployed with Azure Container Instances from a private Azure Container Registry named contosoimages. The solution will use eight CPU cores. Azure Active Directory: Contoso, Ltd. uses Azure Active Directory (Azure AD) for both internal and guest accounts. Requirements: ContentAnalysisService - The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named CheckUserContent to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the ContentAnalysisService using their Azure AD credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Azure AD. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the ContentAnalysisService is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages. Code - ContentUploadService - ApplicationManifest. You need to ensure that network security policies are met. How should you configure network security?](#question195) |
 | 196   | [You are building a website to access project data related to teams within your organization. The website does not allow anonymous access. Authentication is performed using an Azure Active Directory (Azure AD) app named internal. The website has the following authentication requirements: Azure AD users must be able to login to the website. Personalization of the website must be based on membership in Active Directory groups. You need to configure the application's manifest to meet the authentication requirements. How should you configure the manifest?](#question196) |
 | 197   | [You are developing an Azure solution. You need to develop code to access a secret stored in Azure Key Vault. How should you complete the code segment?](#question197) |
-| 198   | [You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.)](#question198) |
+| 198   | [](#question198) |
 | 199   | [You are developing a web application that makes calls to the Microsoft Graph API. You register the application in the Azure portal and upload a valid X509 certificate. You create an appsettings.json file containing the certificate name, client identifier for the application, and the tenant identifier of the Azure Active Directory (Azure AD). You create a method named ReadCertificate to return the X509 certificate by name. You need to implement code that acquires a token by using the certificate. How should you complete the code segment?](#question199) |
 | 200   | [You are developing an ASP.NET Core Web API web service. The web service uses Azure Application Insights for all telemetry and dependency tracking. The web service reads and writes data to a database other than Microsoft SQL Server. You need to ensure that dependency tracking works for calls to the third-party database. Which two dependency telemetry properties should you use?](#question200) |
 | 201   | [You are developing an Azure App Service hosted ASP.NET Core web app to deliver video-on-demand streaming media. You enable an Azure Content Delivery Network (CDN) Standard for the web endpoint. Customer videos are downloaded from the web app by using the following example URL: http://www.contoso.com/content.mp4?quality=1. All media content must expire from the cache after one hour. Customer videos with varying quality must be delivered to the closest regional point of presence (POP) node. You need to configure Azure CDN caching rules. Which options should you use?](#question201) |
@@ -214,6 +214,10 @@
 | 206   | [Question206](#question206) |
 | 207   | [Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. You require [a redirect URI] from the developer for registration purposes.](#question207)
 | 208   | [You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events. You need to identify trends in application usage. Which Azure Application Insights Usage Analysis features should you use?](#question208)
+| 209   | [You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 1: Block blobs prefixed with container1/salesorders or container2/inventory which have not been modified in over 60 days are moved to cool storage. Blobs that have not been modified in 120 days are moved to the archive tier.)](#question209) |
+| 210   | [You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 2: Blobs are moved to cool storage if they have not been accessed for 30 days](#question210)
+| 211   | [You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 3: Blobs will automatically be tiered from cool back to hot if accessed again after being tiered to cool](#question211)
+| 212   | [You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 4: All block blobs older than 730 days will be deleted.](question212)
 
 ### You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. Each instance of the WebJob processes data for a single customer and must run as a singleton instance. Each deployment must be tested by using deployment slots prior to serving production data. Azure costs must be minimized. Azure resources must be located in an isolated network. You need to configure the App Service plan for the Web App. How should you configure the App Service plan?
 
@@ -2007,13 +2011,6 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) [???]
-
-- [ ]
-- [ ]
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### You are developing a web application that makes calls to the Microsoft Graph API. You register the application in the Azure portal and upload a valid X509 certificate. You create an appsettings.json file containing the certificate name, client identifier for the application, and the tenant identifier of the Azure Active Directory (Azure AD). You create a method named ReadCertificate to return the X509 certificate by name. You need to implement code that acquires a token by using the certificate. How should you complete the code segment?
 
 ![Question 199](images/question199.jpg)
@@ -2088,5 +2085,41 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Box 1: Impact. Box 2: Funnels. Box 3: Retention. Box 4: User Flows.
 - [ ] Box 1: Users. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
 - [ ] Box 1: Impact. Box 2: Users. Box 3: User Flows. Box 4: Funnels.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 1: Block blobs prefixed with container1/salesorders or container2/inventory which have not been modified in over 60 days are moved to cool storage. Blobs that have not been modified in 120 days are moved to the archive tier.
+
+![Question 209](images/question209_210_211_212.png)
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 2: Blobs are moved to cool storage if they have not been accessed for 30 days.
+
+![Question 210](images/question209_210_211_212.png)
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 3: Blobs will automatically be tiered from cool back to hot if accessed again after being tiered to cool.
+
+![Question 211](images/question209_210_211_212.png)
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 4: All block blobs older than 730 days will be deleted.
+
+![Question 212](images/question209_210_211_212.png)
+
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
