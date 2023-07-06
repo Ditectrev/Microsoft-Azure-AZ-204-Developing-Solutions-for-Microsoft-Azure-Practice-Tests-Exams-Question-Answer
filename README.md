@@ -2022,12 +2022,12 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an ASP.NET Core Web API web service. The web service uses Azure Application Insights for all telemetry and dependency tracking. The web service reads and writes data to a database other than Microsoft SQL Server. You need to ensure that dependency tracking works for calls to the third-party database. Which two dependency telemetry properties should you use? [???]
+### You are developing an ASP.NET Core Web API web service. The web service uses Azure Application Insights for all telemetry and dependency tracking. The web service reads and writes data to a database other than Microsoft SQL Server. You need to ensure that dependency tracking works for calls to the third-party database. Which two dependency telemetry properties should you use?
 
 - [ ] Telemetry.Context.Cloud.RoleInstance.
-- [ ] Telemetry.Id.
+- [x] Telemetry.Id.
 - [ ] Telemetry.Name.
-- [ ] Telemetry.Context.Operation.Id.
+- [x] Telemetry.Context.Operation.Id.
 - [ ] Telemetry.Context.Session.Id.
 
 **[⬆ Back to Top](#table-of-contents)**
