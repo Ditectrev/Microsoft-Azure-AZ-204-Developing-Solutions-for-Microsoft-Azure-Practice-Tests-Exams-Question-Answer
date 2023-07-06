@@ -2054,10 +2054,14 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company backs up all manufacturing data to Azure Blob Storage. Admins move blobs from hot storage to archive tier storage every month. You must automatically move blobs to Archive tier after they have not been modified within 180 days. The path for any item that is not archived must be placed in an existing queue. This operation must be performed automatically once a month. You set the value of TierAgeInDays to -180. How should you configure the Logic App? [???]
+### A company backs up all manufacturing data to Azure Blob Storage. Admins move blobs from hot storage to archive tier storage every month. You must automatically move blobs to Archive tier after they have not been modified within 180 days. The path for any item that is not archived must be placed in an existing queue. This operation must be performed automatically once a month. You set the value of TierAgeInDays to -180. How should you configure the Logic App?
 
-- [ ]
-- [ ]
+![Question 203](images/question203.jpeg)
+
+- [ ] Box 1: Put a message on a queue. Box 2: Recurrence. Box 3: Condition. Box 4: When there are messages in a queue. Box 5: List blobs 2.
+- [ ] Box 1: Recurrence. Box 2: Condition. Box 3: When there are messages in a queue. Box 4: Tier blob. Box 5: List blobs 2.
+- [ ] Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: When there are messages in a queue. Box 5: Tier blob.
+- [x] Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
 
 **[⬆ Back to Top](#table-of-contents)**
 
