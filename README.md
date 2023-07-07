@@ -1055,8 +1055,6 @@
 
 ### You are using Azure Front Door Service. You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size. You need to determine the root cause for the issue. Question 1: The file MIME type is supported by the service.
 
-![Question 88](images/question88_89_90.jpg)
-
 - [ ] Yes.
 - [x] No.
 
@@ -1064,16 +1062,12 @@
 
 ### You are using Azure Front Door Service. You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size. You need to determine the root cause for the issue. Question 2: Edge nodes must be purged of all cache assets.
 
-![Question 89](images/question88_89_90.jpg)
-
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are using Azure Front Door Service. You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size. You need to determine the root cause for the issue. Question 3: The compression type is supported.
-
-![Question 90](images/question88_89_90.jpg)
 
 - [x] Yes.
 - [ ] No.
