@@ -1987,10 +1987,10 @@ specified personnel if the temperature is outside of those thresholds.
 
 ![Question 196](images/question196.png)
 
-- [ ] Box 1: 'optionalClaims'. Box 2: 'allowPublicClient'.
-- [ ] Box 1: 'optionalClaims'. Box 2: 'requiredResourceAccess'.
-- [ ] Box 1: 'groupMembershipClaims'. Box 2: 'oauth2Permissions'.
-- [x] Box 1: 'groupMembershipClaims'. Box 2: 'oauth2AllowimplicitFlow'.
+- [ ] Box 1: "optionalClaims". Box 2: "allowPublicClient".
+- [ ] Box 1: "optionalClaims". Box 2: "requiredResourceAccess".
+- [ ] Box 1: "groupMembershipClaims". Box 2: "oauth2Permissions".
+- [x] Box 1: "groupMembershipClaims". Box 2: "oauth2AllowimplicitFlow".
 
 **[⬆ Back to Top](#table-of-contents)**
 
