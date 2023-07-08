@@ -883,12 +883,16 @@
 - [x] Yes.
 - [ ] No.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ### You are developing an Azure-hosted e-commerce web application. The application will use Azure Cosmos DB to store sales orders. You are using the latest SDK to manage the sales orders in the database. You create a new Azure Cosmos DB instance. You include a valid endpoint and valid authorization key to an appSettings.json file in the code project. You are evaluating the following application code: (Line number are included for reference only.). Question 2: Container1 will contain two items.
 
 ![Question 69](images/question68_69_70.png)
 
 - [x] Yes.
 - [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ### You are developing an Azure-hosted e-commerce web application. The application will use Azure Cosmos DB to store sales orders. You are using the latest SDK to manage the sales orders in the database. You create a new Azure Cosmos DB instance. You include a valid endpoint and valid authorization key to an appSettings.json file in the code project. You are evaluating the following application code: (Line number are included for reference only.). Question 3: Container2 will contain one item.
 
