@@ -1228,10 +1228,10 @@
 
 ![Question 106](images/question106.jpg)
 
-- [x] Box 1: Register the application with the Microsoft identity platform. Box 2:Build a client by using the client app ID. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
+- [x] Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
 - [ ] Box 1: Invoke the request to the Microsoft Graph API. Box 2: Create an authentication provider. Box 3: Register the application with the Microsoft identity platform. Box 4: Build a client by using the client app ID. Box 5: Create a new instance of the GraphServiceClient.
-- [ ] Box 1: Build a client by using the client app ID. Box 2:Register the application with the Microsoft identity platform. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
-- [ ] Box 1: Register the application with the Microsoft identity platform. Box 2:Build a client by using the client app ID. Box 3: Invoke the request to the Microsoft Graph API. Box 4: Create a new instance of the GraphServiceClient. Box 5: Create an authentication provider. Graph API.
+- [ ] Box 1: Build a client by using the client app ID. Box 2: Register the application with the Microsoft identity platform. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
+- [ ] Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Invoke the request to the Microsoft Graph API. Box 4: Create a new instance of the GraphServiceClient. Box 5: Create an authentication provider. Graph API.
 
 **[⬆ Back to Top](#table-of-contents)**
 
