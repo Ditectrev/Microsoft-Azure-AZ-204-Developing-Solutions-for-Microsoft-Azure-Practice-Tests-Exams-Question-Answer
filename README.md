@@ -1,4 +1,4 @@
-# ⬆️ Microsoft Azure AZ 204 (Developing Solutions for Microsoft Azure) Practice Tests Exams Questions & Answers
+# ⬆️ Microsoft Azure AZ-204 (Developing Solutions for Microsoft Azure) Practice Tests Exams Questions & Answers
 
 ![Promotional image](images/promotional.png)
 
