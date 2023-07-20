@@ -1816,9 +1816,9 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2. What should you do?
 
-- [x] From the Update management blade, click Enable.
+- [] From the Update management blade, click Enable.
 - [ ] From the Overview blade, move VM1 to a different subscription.
-- [ ] From the Redeploy blade, click Redeploy.
+- [x] From the Redeploy blade, click Redeploy.
 - [ ] From the Profile blade, modify the usage location.
 
 **[⬆ Back to Top](#table-of-contents)**
