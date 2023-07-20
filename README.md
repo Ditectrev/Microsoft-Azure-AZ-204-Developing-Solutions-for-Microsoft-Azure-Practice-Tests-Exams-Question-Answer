@@ -417,7 +417,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ![Question 12](images/question12.png)
 
 - [ ] Box 1: Create the Azure Functions app with a Consumption plan type. Box 2: Create an access policy in Azure Key Vault for the application identity. Box 3: Create a user-assigned managed identity for the application.
-- [x] Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
+- [x] Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a system-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
 - [ ] Box 1: Create the Azure Functions app with a Consumption plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
 - [ ] Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
 
