@@ -474,8 +474,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Configure the app to use an App Service hosting plan and enable the Always On setting. Does the solution meet the goal?
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1071,10 +1071,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You provide an Azure API Management managed web service to clients. The back-end web service implements HTTP Strict Transport Security (HSTS). Every request to the backend service must include a valid HTTP authorization header. You need to configure the Azure API Management instance with an authentication policy. Which two policies can you use?
 
-- [ ] Basic Authentication.
+- [x] Basic Authentication.
 - [ ] Digest Authentication.
 - [x] Certificate Authentication.
-- [x] OAuth Client Credential Grant.
+- [ ] OAuth Client Credential Grant.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1094,9 +1094,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ![Question 81](images/question81.png)
 
 - [ ] Box 1: UseSession. Box 2: UseCookiePolicy. Box 3: UseStaticFiles.
-- [x] Box 1: UseAuthentication. Box 2: UseAuthorization. Box 3: UseStaticFiles.
+- [ ] Box 1: UseAuthentication. Box 2: UseAuthorization. Box 3: UseStaticFiles.
 - [ ] Box 1: UseCookiePolicy. Box 2: UseHttpsRedirection. Box 3: UseCors.
-- [ ] Box 1: UseAuthentication. Box 2: UseAuthorization. Box 3: UseAzureAppConfiguration.
+- [x] Box 1: UseAuthentication. Box 2: UseAuthorization. Box 3: UseAzureAppConfiguration.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1263,7 +1263,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 101](images/question101.png)
 
-- [x] Box 1: config. Box 2: --docker-container-logging. Box 3: webapp. Box 4: download.
+- [x] Box 1: config. Box 2: --docker-container-logging. Box 3: webapp. Box 4: tail.
 - [ ] Box 1: tail. Box 2: --web-server-logging Box 3: aks Box 4: show.
 - [ ] Box 1: show. Box 2: --web-server-logging. Box 3: acr. Box 4: config.
 - [ ] Box 1: config. Box 2: --application-logging. Box 3: webapp. Box 4: show.
