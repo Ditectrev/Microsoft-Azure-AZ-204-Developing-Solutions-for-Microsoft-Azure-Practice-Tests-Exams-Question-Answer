@@ -321,7 +321,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ![Question 1](images/question1.jpeg)
 
 - [ ] Number of VM instances: 2. Pricing tier: Isolated.
-- [ ] Number of VM instances: 4. Pricing tier: Isolated.
 - [ ] Number of VM instances: 8. Pricing tier: Standard.
 - [ ] Number of VM instances: 16. Pricing tier: Premium.
 - [x] Number of VM instances: 4. Pricing tier: Isolated.
