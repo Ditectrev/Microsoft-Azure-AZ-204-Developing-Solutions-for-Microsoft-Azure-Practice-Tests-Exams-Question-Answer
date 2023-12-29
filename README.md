@@ -1586,6 +1586,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You develop and deploy an ASP.NET web app to Azure App Service. You use Application Insights telemetry to monitor the app. You must test the app to ensure that the app is available and responsive from various points around the world and at regular intervals. If the app is not responding, you must send an alert to support staff. You need to configure a test for the web app. Which two test types can you use?
 
 - [ ] Integration.
+- [x] TrackAvailablity   
 - [x] URL ping.
 - [ ] Unit.
 - [ ] Load.
