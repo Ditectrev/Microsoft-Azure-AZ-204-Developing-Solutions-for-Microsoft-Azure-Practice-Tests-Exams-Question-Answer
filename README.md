@@ -23,7 +23,7 @@
    - Authentication & Authorization;
    - Azure Active Directory (Azure AD);
    - Azure API Management;
-   - Azure App Services;
+   - Azure App Service;
    - Azure Command Line Interface (Azure CLI);
    - Azure Cosmos DB;
    - Azure Event Hubs;
