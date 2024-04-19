@@ -48,7 +48,7 @@
    - Serverless;
    - Service Level Agreement (SLA);
    - Software as a Service (SaaS);
-   - Virtual Machines;
+   - Virtual Machines (VMs);
    - **Much More!**
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
