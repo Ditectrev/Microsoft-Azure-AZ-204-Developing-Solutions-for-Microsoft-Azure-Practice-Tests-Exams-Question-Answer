@@ -80,7 +80,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ## Who this course is for:
 
 - 👨‍🎓 Students preparing for the Developing Solutions for Azure (AZ-204) Exam;
-- 👨‍🎓 AWS Engineers;
+- 👨‍🎓 Amazon Web Services (AWS) Engineers;
 - 👨‍🎓 Azure Engineers;
 - 👨‍🎓 Cloud Engineers;
 - 👨‍🎓 DevOps Engineers;
