@@ -73,6 +73,10 @@
 
 - Update 1 question with deprecated answer.
 
+**[v1.1.1](../../releases/tag/v1.1.1): August 6, 2024.**
+
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/developing-solutions-for-azure-az-204-practice-test-exams/?referralCode=94E823A45873B0E39FE3)).
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](../..#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
