@@ -1981,9 +1981,9 @@ specified personnel if the temperature is outside of those thresholds.
 ### You are developing an application to transfer data between on-premises file servers and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault and makes use of the Azure Key Vault APIs. You want to configure the application to allow recovery of an accidental deletion of the key vault or key vault objects for 90 days after deletion. What should you do?
 
 - [ ] Run the Add-AzKeyVaultKey cmdlet.
-- [ ] Run the az keyvault update --enable-soft-delete true --enable-purge-protection true CLI.
+- [x] Run the az keyvault update --enable-soft-delete true --enable-purge-protection true CLI.
 - [ ] Implement virtual network service endpoints for Azure Key Vault.
-- [x] Run the az keyvault update --enable-soft-delete false CLI.
+- [ ] Run the az keyvault update --enable-soft-delete false CLI.
 
 **[⬆ Back to Top](#table-of-contents)**
 
