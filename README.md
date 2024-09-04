@@ -1670,9 +1670,9 @@ specified personnel if the temperature is outside of those thresholds.
 ### You are developing applications for a company. You plan to host the applications on Azure App Services. The company has the following requirements: Every five minutes verify that the websites are responsive. Verify that the websites respond within a specified time threshold. Dependent requests such as images and JavaScript files must load properly. Generate alerts if a website is experiencing issues. If a website fails to load, the system must attempt to reload the site three more times. You need to implement this process with the least amount of effort. What should you do?
 
 - [ ] Create a Selenium web test and configure it to run from your workstation as a scheduled task.
-- [ ] Set up a URL ping test to query the home page.
+- [x] Set up a URL ping test to query the home page.
 - [ ] Create an Azure function to query the home page.
-- [x] Create a multi-step web test to query the home page.
+- [ ] Create a multi-step web test to query the home page.
 - [ ] Create a Custom Track Availability Test to query the home page.
 
 **[⬆ Back to Top](#table-of-contents)**
