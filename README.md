@@ -1688,9 +1688,9 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are developing an e-commerce solution that uses a microservice architecture. You need to design a communication backplane for communicating transactional messages between various parts of the solution. Messages must be communicated in first-in-first-out (FIFO) order. What should you use?
 
-- [x] Azure Storage Queue.
+- [ ] Azure Storage Queue.
 - [ ] Azure Event Hub.
-- [ ] Azure Service Bus.
+- [x] Azure Service Bus.
 - [ ] Azure Event Grid.
 
 **[⬆ Back to Top](#table-of-contents)**
