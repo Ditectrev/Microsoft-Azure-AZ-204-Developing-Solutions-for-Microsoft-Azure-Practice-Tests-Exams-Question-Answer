@@ -660,8 +660,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Update the app with a method named statuscheck to run the scripts. Update the app settings for the app. Set the WEBSITE_SWAP_WARMUP_PING_PATH and WEBSITE_SWAP_WARMUP_PING_STATUSES with a path to the new method and appropriate response codes. Does the solution meet the goal?
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
