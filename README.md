@@ -19,7 +19,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 💰 If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
 
-⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item. 
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
 
 ## ✨ This course is unlike any Microsoft Azure AZ-204 (Developing Solutions for Azure) course you will find online.
 
@@ -89,6 +89,10 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 **[v1.1.1](../../releases/tag/v1.1.1): August 6, 2024.**
 
 - AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/developing-solutions-for-azure-az-204-practice-test-exams/?referralCode=94E823A45873B0E39FE3)).
+
+**[v1.1.2](../../releases/tag/v1.1.2): November 11, 2024.**
+
+- Fix 4 wrong answers.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
