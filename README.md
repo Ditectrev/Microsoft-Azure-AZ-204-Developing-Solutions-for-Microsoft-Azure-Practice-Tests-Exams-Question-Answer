@@ -1523,10 +1523,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 124](images/question124.jpg)
 
-- [x] Target: Azure Resource. Gateway credentials: Client cert.
+- [ ] Target: Azure Resource. Gateway credentials: Client cert.
 - [ ] Target: Client cert. Gateway credentials: Basic.
 - [ ] Target: Azure Resource. Gateway credentials: Basic.
-- [ ] Target: Basic. Gateway credentials: HTTP(s) endpoint.
+- [x] Target: HTTP(s) endpoint. Gateway credentials: Client cert.
 
 **[⬆ Back to Top](#table-of-contents)**
 
