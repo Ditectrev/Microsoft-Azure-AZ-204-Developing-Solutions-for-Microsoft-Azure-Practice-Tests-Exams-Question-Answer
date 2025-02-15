@@ -1313,10 +1313,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 103](images/question103.jpg)
 
-- [x] caching-type: Internal. downstream-caching-type: Private. vary-by-header: Authorization.
+- [ ] caching-type: Internal. downstream-caching-type: Private. vary-by-header: Authorization.
 - [ ] caching-type: Public. downstream-caching-type: Expect. vary-by-header: Private.
 - [ ] caching-type: Internal. downstream-caching-type: External. vary-by-header: Authorization.
-- [ ] caching-type: External. downstream-caching-type: Private. vary-by-header: Authorization.
+- [x] caching-type: External. downstream-caching-type: Private. vary-by-header: Authorization.
 
 **[⬆ Back to Top](#table-of-contents)**
 
