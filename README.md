@@ -21,6 +21,14 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 ⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
 
+## 👩‍💻 & 👨‍💻 Interactive Course(s)
+
+It's great to learn these questions as your exam preparation, and, yes, you should pass just based on that. However, we highly recommend more interactive learning if you want to become an expert. Currently, we're recommending those courses:
+
+- 📖 [Educative: text-based, video-free course, including set up out-of-the-box for you Cloud Labs to practice hands-on without the need to set up an environment (and payments). The link includes the highest available discount Educative offers](https://www.educative.io/courses/event-driven-microservices-azure?aff=VALz).
+
+Yes, we have a little commission from that link. Therefore, by using that link, you're supporting us.
+
 ## ✨ This course is unlike any Microsoft Azure AZ-204 (Developing Solutions for Azure) course you will find online.
 
 ✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-204 (Developing Solutions for Azure) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
@@ -93,6 +101,10 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 **[v1.1.2](../../releases/tag/v1.1.2): November 11, 2024.**
 
 - Fix 4 wrong answers.
+
+**[v1.1.3](../../releases/tag/v1.1.3): March 1, 2025.**
+
+- Fix 3 wrong answers.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
