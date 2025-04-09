@@ -509,8 +509,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Pass the HTTP trigger payload into an Azure Service Bus queue to be processed by a queue trigger function and return an immediate HTTP success response. Does the solution meet the goal?
 
-- [ ] Yes.
-- [x] No.
+- [X] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
