@@ -413,8 +413,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named `Testing` and `Production`. You enable auto swap on the Production deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Disable auto swap. Update the app with a method named `statuscheck` to run the scripts. Re-enable auto swap and deploy the app to the Production slot. Does the solution meet the goal?
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
