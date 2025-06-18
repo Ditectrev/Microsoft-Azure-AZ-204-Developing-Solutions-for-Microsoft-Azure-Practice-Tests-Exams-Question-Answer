@@ -652,9 +652,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ![Question 32](images/question32.jpeg)
 
 - [ ] Firewall configuration: Run Command. Supporting services script: Hybrid Runbook Worker.
-- [ ] Firewall configuration: Customer Script Extension. Supporting services script: Serial console.
-- [x] Firewall configuration: Run Command. Supporting services script: Customer Script Extension.
-- [ ] Firewall configuration: Hybrid Runbook Worker. Supporting services script: Customer Script Extension.
+- [ ] Firewall configuration: Custom Script Extension. Supporting services script: Serial console.
+- [x] Firewall configuration: Run Command. Supporting services script: Custom Script Extension.
+- [ ] Firewall configuration: Hybrid Runbook Worker. Supporting services script: Custom Script Extension.
 
 **[⬆ Back to Top](#table-of-contents)**
 
