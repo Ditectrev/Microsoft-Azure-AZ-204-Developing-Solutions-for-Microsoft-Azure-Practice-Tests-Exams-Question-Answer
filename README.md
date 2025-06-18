@@ -1504,10 +1504,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 121](images/question121.png)
 
-- [x] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurat for which a driver can receive messages. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+- [x] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurant for which a driver can receive messages. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
 - [ ] Box 1: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 2: Create a Service Bus topic for each restaurant. Box 3: Create a Service Bus Namespace for each.
 - [ ] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 3: Create a single Service Bus topic.
-- [ ] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurat for which a driver can receive messages. Box 3: Create a Service Bus Namespace for each.
+- [ ] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurant for which a driver can receive messages. Box 3: Create a Service Bus Namespace for each.
 
 **[⬆ Back to Top](#table-of-contents)**
 
