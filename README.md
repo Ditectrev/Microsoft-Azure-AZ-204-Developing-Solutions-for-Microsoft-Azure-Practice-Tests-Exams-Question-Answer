@@ -1666,8 +1666,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 138](images/question138.jpg)
 
-- [x] Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache.StringSet('Team', '');`.
-- [ ] Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache ValueDelete('Team');`.
+- [ ] Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache.StringSet('Team', '');`.
+- [x] Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
 - [ ] Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
 - [ ] Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache StringGet('Team', '');`.
 
