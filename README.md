@@ -1886,9 +1886,9 @@ specified personnel if the temperature is outside of those thresholds.
 ### Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformUpdateDomainCount property?
 
 - [ ] 10.
-- [ ] 20.
+- [x] 20.
 - [ ] 30.
-- [x] 40.
+- [ ] 40.
 
 **[⬆ Back to Top](#table-of-contents)**
 
