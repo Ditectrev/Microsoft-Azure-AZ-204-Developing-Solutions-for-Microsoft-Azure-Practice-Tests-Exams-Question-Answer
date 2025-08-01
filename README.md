@@ -107,6 +107,10 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
 
 - Fix 3 wrong answers.
 
+**[v1.2.0](../../releases/tag/v1.2.0): August 1, 2025.**
+
+- Update outdated terminology related to Azure Active Directory (Azure AD) (now Microsoft Entra ID). Additionally, significant formatting improvements for technical words, minor typos fixes and 5 questions with wrong answers were corrected.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](../..#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
